@@ -2,27 +2,6 @@
  
 This is a simple Spring Boot project demonstrating basic configurations, bean wiring, and usage of `@Autowired` in a field-based manner.
  
-## Project Structure
- 
-```
-src
-|-- main
-|   |-- java
-|   |   |-- com
-|   |       |-- example
-|   |           |-- config
-| | |-- AppConfig.java
-|   |           |-- model
-| | |-- Book.java
-| | |-- Student.java
-|   |           |-- service
-| | |-- ApplicationRunnerImpl.java
-| | |-- Classroom.java
-| | |-- Library.java
-|   |-- resources
-| |-- application.properties
-```
- 
 ## Bean Configuration
  
 - **AppConfig**: Configuration class responsible for defining beans for `Book`, `Student`, `Library`, and `Classroom`.
